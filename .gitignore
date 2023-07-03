@@ -1,0 +1,20 @@
+# exclude Terraform cached data
+.terraform
+
+# exclude Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# exclude Terraform CLI settings
+.terraformrc
+terraform.rc
+
+# exclude input variables
+*.tfvars
+*.auto.tfvars
+
+# exclude override files
+*.override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
